@@ -10,7 +10,20 @@ Welcome to gptoolkit's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. automodule:: gptoolkit
+      :members:
 
+.. automodule:: gptoolkit.client
+      :members:
+
+.. automodule:: gptoolkit.database.models
+      :members:
+
+.. automodule:: gptoolkit.database.database
+      :members:
+
+.. automodule:: gptoolkit.utils.llm_evaluation
+      :members:
 
 Indices and tables
 ==================
