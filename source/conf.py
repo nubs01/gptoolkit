@@ -4,7 +4,6 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 import os
 import sys
-import sphinx_rtd_theme
 
 # Add the current directory to the Python path
 sys.path.insert(0, os.path.abspath("."))
