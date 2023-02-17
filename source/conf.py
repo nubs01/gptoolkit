@@ -30,11 +30,12 @@ templates_path = ['_templates']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 # Theme
-html_theme = "sphinx_rtd_theme"
+html_theme = "furo"
 
 # Output directory for HTML documentation
 html_baseurl = "https://your-username.github.io/gptoolkit/"
 html_extra_path = ["docs"]
+html_static_path = ['source/_static']
 
 # -- Options for autodoc extension ----------------------------------------
 
