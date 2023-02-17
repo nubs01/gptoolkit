@@ -18,6 +18,7 @@ release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+master_doc = 'source/index'
 
 # Extensions
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.viewcode"]
