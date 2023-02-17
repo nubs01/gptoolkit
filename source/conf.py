@@ -21,7 +21,7 @@ release = '0.0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # Extensions
-extensions = ["sphinx_rtd_theme", "sphinx.ext.autodoc", "sphinx.ext.viewcode"]
+extensions = ["sphinx.ext.autodoc", "sphinx.ext.viewcode"]
 
 templates_path = ['_templates']
 
