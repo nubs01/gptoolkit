@@ -2,7 +2,7 @@
 
 import keyring
 import openai
-from database import Database
+from gptoolkit.database.database import Database
 
 
 class GPT3Client:

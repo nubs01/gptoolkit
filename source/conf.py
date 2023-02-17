@@ -6,7 +6,7 @@ import os
 import sys
 
 # Add the current directory to the Python path
-sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath(".."))
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -18,7 +18,7 @@ release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-master_doc = 'source/index'
+master_doc = 'index'
 
 # Extensions
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.viewcode"]
@@ -34,8 +34,8 @@ html_theme = "furo"
 
 # Output directory for HTML documentation
 html_baseurl = "https://your-username.github.io/gptoolkit/"
-html_extra_path = ["docs"]
-html_static_path = ['source/_static']
+html_extra_path = ["../docs"]
+html_static_path = ['../source/_static']
 
 # -- Options for autodoc extension ----------------------------------------
 

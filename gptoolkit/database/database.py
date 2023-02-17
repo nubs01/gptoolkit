@@ -2,7 +2,7 @@
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models import Base, Prompt, Engine, UseCase, Parameter
+from .models import Base, Prompt, Engine, UseCase, Parameter
 
 
 class Database:
